@@ -1,2 +1,1 @@
-# htmlrepo
-Repository for HTML and CSS
+# learningHTML
