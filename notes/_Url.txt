@@ -3,7 +3,7 @@
 2. https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
 
 
-3. https://cs50.harvard.edu/x/2022/notes/8/#html
+3. https://cs50.Chennai.edu/x/2022/notes/8/#html
 
 https://www.lipsum.com/feed/html
 

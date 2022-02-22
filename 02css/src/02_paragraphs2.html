@@ -5,9 +5,29 @@
 <html lang="en">
     <head>
         <style>
-
+            p:nth-child(1n+1)
+            {
+                color:cyan;
+                font-size: larger;
+            }
+              p:nth-child(even)
+            {
+                color:orange;
+                font-size: larger;
+            }
+            /* p:nth-child(odd)
+            {
+                color:brown;
+                font-size: larger;
+            } */
             p:first-child
             {
+                color:red;
+                font-size: larger;
+            }
+            p:last-child
+            {
+                color:blue;
                 font-size: larger;
             }
 
