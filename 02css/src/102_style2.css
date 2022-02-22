@@ -1,4 +1,4 @@
-/* Descentant by space  /*/
+/* Descentant by space */
 section p
 {
     color:red;
@@ -9,22 +9,24 @@ section > p
     color:orange;
 }
 
-/* Adjacent siling + select all immediate element */
+/* Adjacent sibling + select all immediate element */
 /*Selects immediately following sibling of specified element */
 h1 + p
 {
-    background-color: antiquewhite;
+    color:yellow;
+    background-color: blue;
 }
 
 /* selects all siblings placed after specified element */
+
 h1 ~ p
 {
-    background-color: antiquewhite;
+    background-color: rgb(49, 5, 46);
 }
-
+/*
 h1 > p
 {
     background-color: antiquewhite;
-}
+} */
 
 

@@ -13,7 +13,7 @@ h1::first-letter{
 h1::before
 {
     content: "This is ";
-    color:yellow;
+    color:blue;
 }
 
 /* using after - insert the content after heading*/
