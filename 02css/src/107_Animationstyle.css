@@ -1,20 +1,20 @@
 /* Animation */
-
 /* for class based style */
 .box {
     width: 200px;
     height: 200px;
     background-color:olivedrab;
     position:relative;
-    animation-name:anim; /* this is defined below @keyffram anim*/
+    animation-name:anim2; /* this is defined below @keyffram anim*/
     animation-duration:4s;   /*set animation duration in seconds */
 }
-
-/* Keyframes are the important frames which contain information of a start/end point of an action. A keyframe tells you about two things; first, it tells you what the action of your frame is at a certain point of time; second, it tells you what time that action occurs. */
-
-
+/* Keyframes are the important frames which contain information of a 
+                                                    start/end point of an action. 
+A keyframe tells you about two things :
+    first, it tells you what the action of your frame is at a certain point of time; 
+    second, it tells you what time that action occurs. 
+*/
 @keyframes anim {
-
     0%{
         left:0;
         top:0;
@@ -25,15 +25,13 @@
         top:0;
         background-color:green;
     }
-    
 }
 
 /* change % from to (5,25,50,75) for the animation color and postion */
 
-/* 
 
-@keyframes anim {
 
+@keyframes anim2 {
     0%{
         left:0;
         top:0;
@@ -59,8 +57,6 @@
         top:0;
         background-color:aqua;
     }
-    
-    
-} */
+} 
 
 

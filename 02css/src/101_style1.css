@@ -8,11 +8,26 @@ h2{
 h3{
     background-color:blue;
 }
-
+/* Grouping of Elements */
 h1,h3{
     color:white;
 }
+/*
+"Contextual selectors" in CSS allow you to specify different styles 
+for different parts of your document.
+You can assign styles directly to specific HTML tags, 
+or you can create independent classes and assign them to tags in the HTML. 
+Either approach lets you mix and match styles.
 
+A contextual selector is defined as a selector which considers the context 
+where the style is to be applied. 
+In simple words, the specified style is applied to an element only if 
+the element is in the specified context.
+
+In the below example :
+    any <li> tag that is inside <ul> tag, will make it red .
+    Here, the <li> tag will be made green only in the context of <ul> tag.
+*/
 ul li
 {
     color:red;
@@ -23,9 +38,9 @@ ul>li
 {
     color:blue;
 }
-/*li{
+li{
     color:green;
-} */
+}
 
 /* selecting class element */
 .item{
