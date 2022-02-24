@@ -8,21 +8,20 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:root
 
 Specificity 
 ---
-Specificity is the means by which browsers decide which CSS property values 
- are the most relevant to an element and, therefore, will be applied. 
- Specificity is based on the matching rules 
- which are composed of different sorts of CSS selectors.
+is the means by which browsers decide which CSS property values are the most relevant to an element and,
+ therefore, will be applied. Specificity is based on 
+ the matching rules which are composed of different sorts of CSS selectors.
 https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 
 Declaring global CSS variables
 ---
 :root can be useful for declaring global CSS variables:
-    <code>
-      :root {
-        --main-color: hotpink;
-        --pane-padding: 5px 42px;
-      }
-    </code>
+:root {
+  --main-color: hotpink;
+  --pane-padding: 5px 42px;
+}
+
+
 */
 :root {
   --main-font: "Red Hat Display", sans-serif;
@@ -71,11 +70,11 @@ body {
 
   box-shadow
   ---
-    The box-shadow CSS property adds shadow effects around an element's frame. 
-    You can set multiple effects separated by commas. 
-    A box shadow is described by X and Y offsets relative to the element, 
-    blur and spread radius, and color.
-    https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+The box-shadow CSS property adds shadow effects around an element's frame. 
+You can set multiple effects separated by commas. 
+A box shadow is described by X and Y offsets relative to the element, 
+blur and spread radius, and color.
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
 
 WebKit CSS extensions
 ----
@@ -100,19 +99,19 @@ This allows properties to be set specific to each individual browser/rendering e
  The prefixes will, over time, be removed (at least in theory) as the unprefixed, 
  the final version, of the property is implemented in that browser.
 
-To that end it's usually considered good practice to specify the 
-vendor-prefixed version first and then the non-prefixed version, 
-in order that the non-prefixed property will override the vendor-prefixed 
-property-settings once it's implemented; for example:
-<code>
-  .elementClass {
-      -moz-border-radius: 2em;
-      -ms-border-radius: 2em;
-      -o-border-radius: 2em;
-      -webkit-border-radius: 2em;
-      border-radius: 2em;
-  }
-</code>
+To that end it's usually considered good practice to specify the vendor-prefixed version 
+first and then the non-prefixed version, 
+in order that the non-prefixed property will override the vendor-prefixed property-settings 
+once it's implemented; for example:
+
+.elementClass {
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+}
+
   */
   .order-center-container {
     position: relative;
@@ -172,7 +171,8 @@ property-settings once it's implemented; for example:
     font-family: var(--main-font);
     width: 70%;
     display: inline-flex;
-    flex-direction: row;  
+    flex-direction: row;
+    /* justify-content: space-between; */
     align-content: space-between;
     align-items: center;
     border-radius: 10px;
@@ -206,7 +206,6 @@ property-settings once it's implemented; for example:
     font-weight: 900;
     font-size: 1rem;
   }
-
   .btn-payment {
     background-color: var(--bright-blue);
     border-radius: 15px;

@@ -4,10 +4,9 @@ html, body {
 }
 body {
     min-height: 100vh;
-    background-color: var(--background-color);
+    background-color: green;
     background-image: url("images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
     overflow-y: scroll;
   }
