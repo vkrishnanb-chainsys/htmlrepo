@@ -9,7 +9,7 @@ a:link{
 }
 a:visited
 {
-    color:aquamarine
+    color:green
 }
 a:hover
 {
@@ -18,7 +18,7 @@ a:hover
 }
 a:active
 {
-
+    color:red;
 }
 
 .dropdown-content a{

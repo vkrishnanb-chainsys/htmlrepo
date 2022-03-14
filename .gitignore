@@ -1,3 +1,4 @@
+helper = cache --timeout=999999
 # Logs
 logs
 *.log
